@@ -77,7 +77,7 @@ export default function ArtworkCardDetail({ objectID }) {
                         variant={showAdded ? 'primary' : 'outline-primary'}
                         onClick={() => favouritesClicked()}
                     >
-                        + Favourite {showAdded && '(added)'}
+                        + Favourite {showAdded && '(addeded to favorites)'}
                     </Button>
                 </Card.Text>
             </Card.Body>
